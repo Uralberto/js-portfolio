@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin'); // Clase 12
-const DotEnv = require('dotEnv-webpack'); // Clase 14
+const DotEnv = require('dotenv-webpack'); // Clase 14
 const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // Clase 16
 
 module.exports = {
