@@ -1,5 +1,5 @@
-const API = 'https://randomuser.me/api/';
-// const API = process.env.API;  De esta manera protegemos nuestro código
+// const API = 'https://randomuser.me/api/';
+const API = process.env.API; // De esta manera protegemos nuestro código
 
 const getData = async id => {
 	const apiURl = id ? `${API}${id}` : API;
